@@ -949,7 +949,8 @@ section
 }
 .about_image img
 {
-	max-width: 100%
+	max-width: 100%;
+	transition: filter 1s ease;
 }
 .about_content
 {

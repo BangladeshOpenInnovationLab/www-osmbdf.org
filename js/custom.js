@@ -215,6 +215,27 @@ $(document).ready(function()
 
 	*/
 
+	var aboutImageFlag;
+
+	aboutImageFlag = false;
+
+	// Trigger function when user scrolls past [percentage] of the element
+	$(window).on("scroll", function() {
+		if ( aboutImageFlag==false && (window.pageYOffset>(window.screen.height-400)) ) {
+			changeAboutImage();
+		}
+	});
+
+	function changeAboutImage() {
+		console.log(0);
+		aboutImageFlag = true;
+		document.getElementsByClassName("about_image")[0].querySelector("img").style.filter = "blur(20px)";
+		setTimeout(function() {
+			document.getElementsByClassName("about_image")[0].querySelector("img").src = "images/about-2.png";
+			document.getElementsByClassName("about_image")[0].querySelector("img").style.filter = "";
+		}, 800);
+	}
+
 	function showOverlayScreen() {
 		$("#overlay").fadeIn(300);
 	}

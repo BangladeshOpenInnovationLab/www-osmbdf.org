@@ -1,982 +1,786 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>OpenStreetMap Bangladesh Foundation (OSMBDF)</title>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
-<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
-<link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
-<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+    <title>OpenStreetMap Bangladesh Foundation (OSMBDF)</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Demo project">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+    <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+    <link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/responsive.css">
 </head>
 <body>
-
-<div class="super_container">
-
-	<div id="overlay">
-		<div id="overlay-data">
-			<div id="about-details">
-				<h2>Our history</h2>
-				<p>It was back in 2011, OSM was introduced in Bangladesh. A working group was formed led by a group of students from Bangladesh University of Engineering Technology (BUET) to kick-start the platform. Some of them later became inactive, gradually. But a small active group of volunteers was working to make it a success in Bangladesh, and the participation was growing slowly. Later in the year of 2013, The World Bank, Bangladesh (GFDRR, WSP), revived the initiative. The World Bank GIS and Data Management Consultant, Mr. Ahasanul Hoque pioneered it. This was likely to mean a change in the pace of progress for the OSM Platform in Bangladesh. Some formal training sessions were introduced and the community did some good bit of works by mapping the old part of Dhaka city.</p>
-				<p>However, it was from 2015 the community found the spark it was thriving for!</p>
-				<p>In January 2015, the OSMBD community started to collaborate with HOT & MissingMaps project of mapping Kamrangircha & Hazaribagh, two of the dense populated urban slum area of Dhaka city. That was the moment from when the community started making the vibe. More and more people were introduced to the platform. Formal training sessions at educational institutes, different development organization, Government organizations along with informal mapping parties were organized. The trainings were facilitated by  OSMBD community led by Mr. Ahasanul Hoque.</p>
-				<p>In last two eventful years, the community collaborated with the organizations like Asia Foundation, Stanford Geo spatial Center, Save the Children in Bangladesh, American Red Cross, Y Care, Bangladesh Bureau of Statistics, Dhaka WASA, FAO and Asian Development Bank (ADB) in their projects relating OSM Platform.</p>
-				<p>With the aim of bringing all the awesome works done in various sectors under the same wing, different enthusiastic and expert individuals from a variety of backgrounds joined together to build this organization.</p>
-			</div>
-		</div>
-		<div id="overlay-cross" class="cross" "><span>&times;</span></div>
-	</div>
-
-	<!-- Header -->
-
-	<header class="header">
-			
-		<!-- Top Bar -->
-		<div class="top_bar">
-			<div class="top_bar_background" style="background-image:url(images/top_bar.jpg)"></div>
-			<div class="top_bar_container">
-				<div class="container">
-					<div class="row">
-						<div class="col">
-							<div class="top_bar_content d-flex flex-row align-items-center justify-content-start">
-								<ul class="top_bar_contact_list">
-									<li>
-										<i class="fa fa-envelope" aria-hidden="true"></i>
-										<div>Email: <a href="mailto:info@osbbdf.org">info@osmbdf.org</a></div>
-									</li>
-									<li>
-										<i class="fa fa-phone" aria-hidden="true"></i>
-										<div>Call Us: +1234 800 8080</div>
-									</li>
-								</ul>
-								<div class="top_bar_social ml-auto">
-									<ul class="social_list">
-										<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-										<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-										<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-										<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-										<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>				
-		</div>
-
-		<!-- Header Content -->
-		<div class="header_container">
-			<div class="container">
-				<div class="row">
-					<div class="col">
-						<div class="header_content d-flex flex-row align-items-center justify-content-start">
-							<div class="logo_container">
-								<a href="#">
-									<div class="logo"><img src="images/logo.png" alt=""></div>
-									<div class="logo_text">OpenStreetMap Bangladesh<br>Foundation</div>
-								</a>
-							</div>
-							<nav class="main_nav_contaner ml-auto">
-								<ul class="main_nav">
-									<li class="active"><a href="#">home</a></li>
-									<li><a href="#about">About</a></li>
-									<li><a href="#project">Projects</a></li>
-									<li><a href="#event">Events</a></li>
-									<li><a href="#blog">Blog</a></li>
-									<li><a href="#footer">Contact</a></li>
-								</ul>
-								<div class="search_button"><i class="fa fa-search" aria-hidden="true"></i></div>
-							</nav>
-
-							<!-- Hamburger -->
-
-							<div class="hamburger ml-auto">
-								<i class="fa fa-bars" aria-hidden="true"></i>
-							</div>
-
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<!-- Header Search Panel -->
-		<div class="header_search_container">
-			<div class="container">
-				<div class="row">
-					<div class="col">
-						<div class="header_search_content d-flex flex-row align-items-center justify-content-end">
-							<form action="#" class="header_search_form">
-								<input type="search" class="search_input" placeholder="Search" required="required">
-								<button class="header_search_button d-flex flex-column align-items-center justify-content-center">
-									<i class="fa fa-search" aria-hidden="true"></i>
-								</button>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>			
-		</div>			
-	</header>
-
-	<!-- Menu -->
-
-	<div class="menu d-flex flex-column align-items-center justify-content-center">
-		<div class="menu_content">
-			<div class="cross_1 d-flex flex-column align-items-center justify-content-center"><img src="images/logo.png" alt=""></div>
-			<form action="#" class="menu_search_form">
-				<input type="search" class="menu_search_input" placeholder="Search" required="required">
-				<button class="menu_search_button d-flex flex-column align-items-center justify-content-center">
-				<i class="fa fa-search" aria-hidden="true"></i>
-			</button>
-			</form>
-			<nav class="menu_nav">
-				<ul>
-					<li class="active"><a href="#">Home</a></li>
-					<li><a href="#about">About</a></li>
-					<li><a href="#project">Projects</a></li>
-					<li><a href="#event">Events</a></li>
-					<li><a href="#blog">Blog</a></li>
-					<li><a href="#footer">Contact</a></li>
-				</ul>
-			</nav>
-		</div>
-		<div class="menu_close"><i class="fa fa-times" aria-hidden="true"></i></div>
-	</div>
-
-	<!-- Home -->
-
-	<div class="home">
-		<div class="home_background" style="background-image:url(images/index.png)"></div>
-		<div class="home_content text-center">
-			<div class="container">
-				<div class="row">
-					<div class="col">
-						<div class="home_title">Connecting open data to sustainability</div>
-						<br>
-						<div class="home_text">Open geo-spatial data for all. Ensuring and sustaining open geo-spatial data and ecosystem in Bangladesh.</div>
-						<br>
-						<div class="button home_link"><a href="#join">Join us</a></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Event -->
-
-	<!-- <div id="countdown" class="event">
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<div class="event_container d-flex flex-lg-row flex-column align-items-center justify-content-start">
-						<div class="event_date d-flex flex-column align-items-center justify-content-center">
-							<div class="event_day">18</div>
-							<div class="event_month">mar</div>
-						</div>
-						<div class="event_content">
-							<div class="event_title">UPCOMING EVENT: <a href="#">exploring the Christian faith</a></div>
-							<ul class="event_row">
-								<li>
-									<div class="event_icon"><img src="images/calendar.png" alt=""></div>
-									<span>08:00 AM - 11:00 AM</span>
-								</li>
-								<li>
-									<div class="event_icon"><img src="images/location.png" alt=""></div>
-									<span>1195 Lobortis Rd, New Orleans, New Hampshire</span>
-								</li>
-							</ul>
-						</div>
-						<div class="event_timer_container ml-lg-auto">
-							<ul class="event_timer">
-								<li><div id="day" class="event_num">00</div><div class="event_ss">day</div></li>
-								<li><div id="hour" class="event_num">00</div><div class="event_ss">hrs</div></li>
-								<li><div id="minute" class="event_num">00</div><div class="event_ss">min</div></li>
-								<li><div id="second" class="event_num">00</div><div class="event_ss">sec</div></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div> -->
-
-	<!-- About -->
-
-	<div id="about" class="about">
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<div class="section_title_container text-center">
-						<div class="section_title">How we have become what we are</div>
-						<div class="section_subtitle">Our history</div>
-					</div>
-				</div>
-			</div>
-			<div class="row about_row">
-				<div class="col-lg-8">
-					<div class="about_image"><img src="images/about-1.png" alt=""></div>
-				</div>
-				<div class="col-lg-4">
-					<div class="about_content">
-						<div class="about_text">
-							<p>OpenStreetMap was introduced in Bangladesh in 2011. A working group was formed led by a group of students from Bangladesh University of Engineering Technology (BUET) to kick-start the platform. Some of them later became inactive, gradually. But a small active group of volunteers was working to make it a success in Bangladesh, and the participation was growing slowly. Later in the year of 2013, The World Bank...</p>
-						</div>
-						<div class="button about_button"><span>Read story</span></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Sermons -->
-
-	<div id="project" class="sermons">
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<div class="section_title_container text-center">
-						<div class="section_title">Things we have done</div>
-						<div class="section_subtitle">Completed projects</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="row sermons_row">
-
-				<div class="col-lg-4 sermon_col">
-					<div class="card">
-						<img class="card-img-top" src="images/project-1.png" alt="">
-						<div class="card-body text-center">
-							<div class="card-title sermon_title"><a href="#">Kolorob - Save the Children International, Bangladesh</a></div>
-							<br>
-							<div class="card-text sermon_info_container">
-								<div class="sermon_info">
-									<div class="sermon_info_title">Location: </div>
-									<ul class="sermon_info_list">
-										<li><a href="#">Mirpur, Dhaka</a></li>
-									</ul>
-								</div>
-								<div class="sermon_info">
-									<div class="sermon_info_title">Tags: </div>
-									<ul class="sermon_info_list">
-										<li><a href="#">Information, </a></li>
-										<li><a href="#">Society</a></li>
-									</ul>
-								</div>
-								<!-- <div class="sermon_links"> -->
-									<!-- <ul> -->
-										<!-- <li><a href="#"><i class="fa fa-link" aria-hidden="true"></i></a></li> -->
-										<!-- <li><a href="#"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li> -->
-										<!-- <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> -->
-										<!-- <li><a href="#"><i class="fa fa-download" aria-hidden="true"></i></a></li> -->
-									<!-- </ul> -->
-								<!-- </div> -->
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-lg-4 sermon_col">
-					<div class="card">
-						<img class="card-img-top" src="images/project-2.png" alt="">
-						<div class="card-body text-center">
-							<div class="card-title sermon_title"><a href="#">Vulnerable Community Mapping in Bangladesh</a></div>
-							<br>
-							<div class="card-text sermon_info_container">
-								<div class="sermon_info">
-									<div class="sermon_info_title">Location: </div>
-									<ul class="sermon_info_list">
-										<li><a href="#">Birishiri & Chittagong</a></li>
-									</ul>
-								</div>
-								<div class="sermon_info">
-									<div class="sermon_info_title">Tags: </div>
-									<ul class="sermon_info_list">
-										<li><a href="#">Map, </a></li>
-										<li><a href="#">Community</a></li>
-									</ul>
-								</div>
-								<!-- <div class="sermon_links"> -->
-									<!-- <ul> -->
-										<!-- <li><a href="#"><i class="fa fa-link" aria-hidden="true"></i></a></li> -->
-										<!-- <li><a href="#"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li> -->
-										<!-- <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> -->
-										<!-- <li><a href="#"><i class="fa fa-download" aria-hidden="true"></i></a></li> -->
-									<!-- </ul> -->
-								<!-- </div> -->
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-lg-4 sermon_col">
-					<div class="card">
-						<img class="card-img-top" src="images/project-3.png" alt="">
-						<div class="card-body text-center">
-							<div class="card-title sermon_title"><a href="#">Data4Action: Earthquake Vulnerability Assessment</a></div>
-							<br>
-							<div class="card-text sermon_info_container">
-								<div class="sermon_info">
-									<div class="sermon_info_title">Location: </div>
-									<ul class="sermon_info_list">
-										<li><a href="#">Mogbazar & Gandaria, Dhaka</a></li>
-									</ul>
-								</div>
-								<div class="sermon_info">
-									<div class="sermon_info_title">Tags: </div>
-									<ul class="sermon_info_list">
-										<li><a href="#">Map, </a></li>
-										<li><a href="#">Capacity enhancement</a></li>
-									</ul>
-								</div>
-								<!-- <div class="sermon_links"> -->
-									<!-- <ul> -->
-										<!-- <li><a href="#"><i class="fa fa-link" aria-hidden="true"></i></a></li> -->
-										<!-- <li><a href="#"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li> -->
-										<!-- <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> -->
-										<!-- <li><a href="#"><i class="fa fa-download" aria-hidden="true"></i></a></li> -->
-									<!-- </ul> -->
-								<!-- </div> -->
-							</div>
-						</div>
-					</div>
-				</div>
-
-			</div>
-
-			<div class="row sermons_row">
-
-				<div class="col-lg-4 sermon_col">
-					<div class="card">
-						<img class="card-img-top" src="images/project-4.png" alt="">
-						<div class="card-body text-center">
-							<div class="card-title sermon_title"><a href="#">Feasibility Study for Health Service Delivery</a></div>
-							<br>
-							<div class="card-text sermon_info_container">
-								<div class="sermon_info">
-									<div class="sermon_info_title">Location: </div>
-									<ul class="sermon_info_list">
-										<li><a href="#">Netrokona Sadar</a></li>
-									</ul>
-								</div>
-								<div class="sermon_info">
-									<div class="sermon_info_title">Tags: </div>
-									<ul class="sermon_info_list">
-										<li><a href="#">Map, </a></li>
-										<li><a href="#">Health</a></li>
-									</ul>
-								</div>
-								<!-- <div class="sermon_links"> -->
-									<!-- <ul> -->
-										<!-- <li><a href="#"><i class="fa fa-link" aria-hidden="true"></i></a></li> -->
-										<!-- <li><a href="#"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li> -->
-										<!-- <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> -->
-										<!-- <li><a href="#"><i class="fa fa-download" aria-hidden="true"></i></a></li> -->
-									<!-- </ul> -->
-								<!-- </div> -->
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-lg-4 sermon_col">
-					<div class="card">
-						<img class="card-img-top" src="images/project-5.png" alt="">
-						<div class="card-body text-center">
-							<div class="card-title sermon_title"><a href="#">Missing Maps Bangladesh Field Mapping</a></div>
-							<br>
-							<div class="card-text sermon_info_container">
-								<div class="sermon_info">
-									<div class="sermon_info_title">Location: </div>
-									<ul class="sermon_info_list">
-										<li><a href="#">Kamrangirchar, Dhaka</a></li>
-									</ul>
-								</div>
-								<div class="sermon_info">
-									<div class="sermon_info_title">Tags: </div>
-									<ul class="sermon_info_list">
-										<li><a href="#">Map, </a></li>
-										<li><a href="#">Community</a></li>
-									</ul>
-								</div>
-								<!-- <div class="sermon_links"> -->
-									<!-- <ul> -->
-										<!-- <li><a href="#"><i class="fa fa-link" aria-hidden="true"></i></a></li> -->
-										<!-- <li><a href="#"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li> -->
-										<!-- <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> -->
-										<!-- <li><a href="#"><i class="fa fa-download" aria-hidden="true"></i></a></li> -->
-									<!-- </ul> -->
-								<!-- </div> -->
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-lg-4 sermon_col">
-					<div class="card">
-						<img class="card-img-top" src="images/project-6.png" alt="">
-						<div class="card-body text-center">
-							<div class="card-title sermon_title"><a href="#">Publicly Accessible Toilet Mapping in Dhaka</a></div>
-							<br>
-							<div class="card-text sermon_info_container">
-								<div class="sermon_info">
-									<div class="sermon_info_title">Location: </div>
-									<ul class="sermon_info_list">
-										<li><a href="#">Dhaka, Bangladesh</a></li>
-									</ul>
-								</div>
-								<div class="sermon_info">
-									<div class="sermon_info_title">Tags: </div>
-									<ul class="sermon_info_list">
-										<li><a href="#">Health, </a></li>
-										<li><a href="#">Social awareness</a></li>
-									</ul>
-								</div>
-								<!-- <div class="sermon_links"> -->
-									<!-- <ul> -->
-										<!-- <li><a href="#"><i class="fa fa-link" aria-hidden="true"></i></a></li> -->
-										<!-- <li><a href="#"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li> -->
-										<!-- <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> -->
-										<!-- <li><a href="#"><i class="fa fa-download" aria-hidden="true"></i></a></li> -->
-									<!-- </ul> -->
-								<!-- </div> -->
-							</div>
-						</div>
-					</div>
-				</div>
-
-			</div>
-
-		</div>
-	</div>
-
-	<!-- Mission -->
-
-	<div id="" class="mission">
-		<div class="mission_background parallax-window" data-parallax="scroll" data-image-src="images/mission.jpg" data-speed="0.8"></div>
-		<div class="mission_items d-flex flex-row flex-wrap align-items-start justify-content-start">
-
-			<div class="mission_item text-center">
-				<div class="mission_icon"><i class="fa fa-rocket" aria-hidden="true"></i></div>
-				<div class="mission_title">Our mission</div>
-				<div class="mission_text">Building an open data ecosystem by integrating the OpenStreetMap platform, open geo-spatial data, non-geo-spatial data, open government and non-government data produced by different government and non-government agencies.</div>
-			</div>
-
-			<div class="mission_item text-center">
-				<div class="mission_icon"><i class="fa fa-users" aria-hidden="true"></i></div>
-				<div class="mission_title">Our community</div>
-				<div class="mission_text">A continuously evolving, vibrant community, comprised of passionate people aiming towards the establishment of a sustainable open data ecosystem.</div>
-			</div>
-
-			<div class="mission_item text-center">
-				<div class="mission_icon"><i class="fa fa-puzzle-piece" aria-hidden="true"></i></div>
-				<div class="mission_title">Our approach</div>
-				<div class="mission_text">Solving real world problems through the proper utilization of open data on the OpenStreetMap platform, while building partnership with like-minded orgnizations and communities all over the world at the same time.</div>
-			</div>
-
-			<div class="mission_item text-center">
-				<div class="mission_icon"><i class="fa fa-handshake-o" aria-hidden="true"></i></div>
-				<div class="mission_title">Our strength</div>
-				<div class="mission_text">A diversified community, individual expertise in various relevant areas, blended with technological approach and multidirectional relationships with different organizations both home and abroad.</div>
-			</div>
-
-		</div>
-	</div>
-
-	<!-- Events -->
-
-	<div id="event" class="events">
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<div class="section_title_container text-center">
-						<div class="section_title">Working with Fun!</div>
-						<div class="section_subtitle">Past events</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="events_items d-flex flex-lg-row flex-column align-items-lg-start align-items-center justify-content-lg-between justify-content-center">
-
-			<!-- Event -->
-			<div class="events_item">
-				<div class="events_item_image"><img src="images/event-1.png" alt=""></div>
-				<div class="events_item_content d-flex flex-row align-items-start justfy-content-start">
-					<div class="event_date d-flex flex-column align-items-center justify-content-center">
-						<div class="event_day">13</div>
-						<div class="event_month">Aug</div>
-					</div>
-					<div class="event_content">
-						<div class="event_title"><a target="_blank" href="https://www.facebook.com/groups/osmbd/permalink/1914136488645086">Celebrating 14 Years of OpenStreetMap</a></div>
-						<ul class="event_row">
-							<li>
-								<div class="event_icon"><img src="images/calendar.png" alt=""></div>
-								<span>02:30 PM - 05:30 PM</span>
-							</li>
-							<li>
-								<div class="event_icon"><img src="images/location.png" alt=""></div>
-								<span>Banani, Dhaka</span>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-
-			<!-- Event -->
-			<div class="events_item">
-				<div class="events_item_image"><img src="images/event-2.png" alt=""></div>
-				<div class="events_item_content d-flex flex-row align-items-start justfy-content-start">
-					<div class="event_date d-flex flex-column align-items-center justify-content-center">
-						<div class="event_day">3</div>
-						<div class="event_month">Jun</div>
-					</div>
-					<div class="event_content">
-						<div class="event_title"><a target="_blank" href="https://www.facebook.com/groups/osmbd/permalink/1804886062903463">OSMBDF Annual Iftar Party, 2018</a></div>
-						<ul class="event_row">
-							<li>
-								<div class="event_icon"><img src="images/calendar.png" alt=""></div>
-								<span>05:00 PM - 08:00 PM</span>
-							</li>
-							<li>
-								<div class="event_icon"><img src="images/location.png" alt=""></div>
-								<span>Boomers cafe, Dhanmondi, Dhaka</span>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-
-			<!-- Event -->
-			<div class="events_item">
-				<div class="events_item_image"><img src="images/event-3.png" alt=""></div>
-				<div class="events_item_content d-flex flex-row align-items-start justfy-content-start">
-					<div class="event_date d-flex flex-column align-items-center justify-content-center">
-						<div class="event_day">29</div>
-						<div class="event_month">Apr</div>
-					</div>
-					<div class="event_content">
-						<div class="event_title"><a target="_blank" href="https://www.facebook.com/groups/osmbd/permalink/1398751843516889">DhakaMegaMapathon, 2017</a></div>
-						<ul class="event_row">
-							<li>
-								<div class="event_icon"><img src="images/calendar.png" alt=""></div>
-								<span>10:00 AM - 04:00 PM</span>
-							</li>
-							<li>
-								<div class="event_icon"><img src="images/location.png" alt=""></div>
-								<span>All Community Club, Gulshan 2, Dhaka</span>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-
-		</div>
-	</div>
-
-	<!-- Donations -->
-
-	<div id="body" class="donations">
-		<div class="donations_background parallax-window" data-parallax="scroll" data-image-src="images/donation.jpg" data-speed="0.8"></div>
-		<div class="container">
-
-			<div id="body_title" class="container">
-				<div class="row">
-					<div class="col">
-						<div class="section_title_container text-center">
-							<div class="section_title">The People behind the Organization</div>
-							<div class="section_subtitle">Executive profiles</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="row">
-
-			<!-- News Post -->
-				<div id="chairman" class="col-xl-4 col-lg-6 news_post_col">
-					<div class="news_post">
-						<div class="news_image body_image"><img src="images/body/shafiqul-islam.png" alt=""></div>
-						<div class="news_post_content body_details">
-							<div class="news_post_title">
-								<span>Shafiqul Islam</span>
-							</div>
-							<div class="news_post_text body_designation">
-								<span>Chairman</span>
-								<br>
-								Policy Head, Water Aid
-							</div>
-						</div>
-					</div>
-				</div>
-
-			</div>
-
-			<div class="row">
-
-			<!-- News Post -->
-				<div class="col-xl-4 col-lg-6 news_post_col">
-					<div class="news_post">
-						<div class="news_image body_image"><img src="images/body/ahasanul-hoque.png" alt=""></div>
-						<div class="news_post_content body_details">
-							<div class="news_post_title">
-								<span>Ahasanul Hoque</span>
-							</div>
-							<div class="news_post_text body_designation">
-								<span>Executive Director</span>
-								<br>
-								GIS Consultant, World Bank
-							</div>
-						</div>
-					</div>
-				</div>
-
-			<!-- News Post -->
-				<div class="col-xl-4 col-lg-6 news_post_col">
-					<div class="news_post">
-						<div class="news_image body_image"><img src="images/body/arif-hossain.png" alt=""></div>
-						<div class="news_post_content body_details">
-							<div class="news_post_title">
-								<span>Arif Hossain</span>
-							</div>
-							<div class="news_post_text body_designation">
-								<span>Director</span>
-								<br>
-								Head of Admin and Accounts, Hyundai Rotem
-							</div>
-						</div>
-					</div>
-				</div>
-
-			<!-- News Post -->
-				<div class="col-xl-4 col-lg-6 news_post_col">
-					<div class="news_post">
-						<div class="news_image body_image"><img src="images/body/atikuzzaman-limon.png" alt=""></div>
-						<div class="news_post_content body_details">
-							<div class="news_post_title">
-								<span>Atikuzzaman Limon</span>
-							</div>
-							<div class="news_post_text body_designation">
-								<span>Director</span>
-								<br>
-								PR Officer, Eastern University
-							</div>
-						</div>
-					</div>
-				</div>
-				
-			</div>
-
-			<div class="row">
-
-			<!-- News Post -->
-				<div class="col-xl-4 col-lg-6 news_post_col">
-					<div class="news_post">
-						<div class="news_image body_image"><img src="images/body/jatan-saha.png" alt=""></div>
-						<div class="news_post_content body_details">
-							<div class="news_post_title">
-								<span>Jatan Saha</span>
-							</div>
-							<div class="news_post_text body_designation">
-								<span>Director</span>
-								<br>
-								System Analyst, BBS
-							</div>
-						</div>
-					</div>
-				</div>
-
-			<!-- News Post -->
-				<div class="col-xl-4 col-lg-6 news_post_col">
-					<div class="news_post">
-						<div class="news_image body_image"><img src="images/body/shahadat-hossain.png" alt=""></div>
-						<div class="news_post_content body_details">
-							<div class="news_post_title">
-								<span>Shahadat Hossain</span>
-							</div>
-							<div class="news_post_text body_designation">
-								<span>Director</span>
-								<br>
-								CEO, O.CREEDS<br>
-								Junior Specialist, IWM
-							</div>
-						</div>
-					</div>
-				</div>
-
-			<!-- News Post -->
-				<div class="col-xl-4 col-lg-6 news_post_col">
-					<div class="news_post">
-						<div class="news_image body_image"><img src="images/body/tasauf-a-baki-billah.png" alt=""></div>
-						<div class="news_post_content body_details">
-							<div class="news_post_title">
-								<span>Tasauf A Baki Billah</span>
-							</div>
-							<div class="news_post_text body_designation">
-								<span>Mapping Team head</span>
-								<br>
-								Pathao
-							</div>
-						</div>
-					</div>
-				</div>
-				
-			</div>
-
-		</div>
-	</div>
-
-	<!-- Latest News -->
-
-	<div id="blog" class="latest_news">
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<div class="section_title_container text-center">
-						<div class="section_title">What people are saying</div>
-						<div class="section_subtitle">Blog posts</div>
-					</div>
-				</div>
-			</div>
-			<div class="row news_row">
-
-				<!-- News Post -->
-				<div class="col-xl-4 col-lg-6 news_post_col">
-					<div class="news_post">
-						<div class="news_image"><img src="images/news-1.png" alt=""></div>
-						<div class="news_post_content">
-							<div class="news_post_title">
-								<a target="_blank" href="https://medium.com/@tasaufabakibillah/mitigating-migration-change-or-charity-405cdcd85f07">Mitigating Migration: Change or Charity?</a>
-							</div>
-							<div class="news_post_meta">
-								<ul>
-									<li><i class="fa fa-user" aria-hidden="true"></i><a target="_blank" href="https://medium.com/@tasaufabakibillah">Tasauf A Baki Billah</a></li>
-									<li><i class="fa fa-calendar-o" aria-hidden="true"></i><a target="_blank" href="#">27 FEB, 2018</a></li>
-									<!-- <li><i class="fa fa-comment" aria-hidden="true"></i><a target="_blank" href="#">15</a></li> -->
-								</ul>
-							</div>
-							<div class="news_post_text">
-								<p>Displacement has to be understood as a “fault line” of development. When people are forced to flee their homes, unable to return or re-establish their lives elsewhere, development trajectories have taken a wrong path...</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<!-- News Post -->
-				<div class="col-xl-4 col-lg-6 news_post_col">
-					<div class="news_post">
-						<div class="news_image"><img src="images/news-2.png" alt=""></div>
-						<div class="news_post_content">
-							<div class="news_post_title">
-								<a target="_blank" href="https://www.openstreetmap.org/user/aHaSaN/diary/44812">Integration of OSM based participatory mapping into LoGIC Project...</a>
-							</div>
-							<div class="news_post_meta">
-								<ul>
-									<li><i class="fa fa-user" aria-hidden="true"></i><a target="_blank" href="https://www.openstreetmap.org/user/aHaSaN">Ahasanul Hoque</a></li>
-									<li><i class="fa fa-calendar-o" aria-hidden="true"></i><a target="_blank" href="#">26 Aug, 2018</a></li>
-									<!-- <li><i class="fa fa-comment" aria-hidden="true"></i><a target="_blank" href="#">12</a></li> -->
-								</ul>
-							</div>
-							<div class="news_post_text">
-								<p>LoGIC (Local Government Initiative for Climate Change) is a multi-donor collaborative initiative of GoB, UNDP, UNCDF, EU and SIDA, aims to enhance the capacity of vulnerable communities, Local Government Institutions (LGI) and...</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<!-- News Post -->
-				<div class="col-xl-4 col-lg-6 news_post_col">
-					<div class="news_post">
-						<div class="news_image"><img src="images/news-3.png" alt=""></div>
-						<div class="news_post_content">
-							<div class="news_post_title">
-								<a target="_blank" href="https://blog.openstreetmap.org/2018/08/12/happy-birthday-openstreetmap">Happy Birthday OpenStreetMap</a>
-							</div>
-							<div class="news_post_meta">
-								<ul>
-									<li><i class="fa fa-user" aria-hidden="true"></i><a target="_blank" href="https://blog.openstreetmap.org">OpenStreetMap Blog</a></li>
-									<li><i class="fa fa-calendar-o" aria-hidden="true"></i><a target="_blank" href="#">12 Aug, 2018</a></li>
-									<!-- <li><i class="fa fa-comment" aria-hidden="true"></i><a target="_blank" href="#">10</a></li> -->
-								</ul>
-							</div>
-							<div class="news_post_text">
-								<p>OpenStreetMap is 14 today! We’ve been partying in various locations around the world: Hyderbad, New Delhi, Moscow, Kigoma, Rapperswil, London, Washington DC, Denver, and Seattle. If you missed the birthday party, don’t worry. Our community is lively with events happening all the time...</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-			</div>
-		</div>
-	</div>
-
-	<!-- Gallery -->
-
-	<!-- <div id="gallery" class="gallery d-flex flex-row flex-wrap align-items-start justify-content-start">
-		<div class="gallery_item">
-			<a class="colorbox" href="images/gallery_1.jpg">
-				<img src="images/gallery_1.jpg" alt="https://unsplash.com/@mantashesthaven">
-			</a>
-		</div>
-		<div class="gallery_item">
-			<a class="colorbox" href="images/gallery_2.jpg">
-				<img src="images/gallery_2.jpg" alt="https://unsplash.com/@mantashesthaven">
-			</a>
-		</div>
-		<div class="gallery_item">
-			<a class="colorbox" href="images/gallery_3.jpg">
-				<img src="images/gallery_3.jpg" alt="https://unsplash.com/@mantashesthaven">
-			</a>
-		</div>
-		<div class="gallery_item">
-			<a class="colorbox" href="images/gallery_4.jpg">
-				<img src="images/gallery_4.jpg" alt="https://unsplash.com/@mantashesthaven">
-			</a>
-		</div>
-		<div class="gallery_item">
-			<a class="colorbox" href="images/gallery_5.jpg">
-				<img src="images/gallery_5.jpg" alt="https://unsplash.com/@mantashesthaven">
-			</a>
-		</div>
-		<div class="gallery_item">
-			<a class="colorbox" href="images/gallery_6.jpg">
-				<img src="images/gallery_6.jpg" alt="https://unsplash.com/@mantashesthaven">
-			</a>
-		</div>
-		<div class="gallery_item">
-			<a class="colorbox" href="images/gallery_7.jpg">
-				<img src="images/gallery_7.jpg" alt="https://unsplash.com/@mantashesthaven">
-			</a>
-		</div>
-		<div class="gallery_item">
-			<a class="colorbox" href="images/gallery_8.jpg">
-				<img src="images/gallery_8.jpg" alt="https://unsplash.com/@mantashesthaven">
-			</a>
-		</div>
-		<div class="gallery_item">
-			<a class="colorbox" href="images/gallery_9.jpg">
-				<img src="images/gallery_9.jpg" alt="https://unsplash.com/@mantashesthaven">
-			</a>
-		</div>
-		<div class="gallery_item">
-			<a class="colorbox" href="images/gallery_10.jpg">
-				<img src="images/gallery_10.jpg" alt="https://unsplash.com/@mantashesthaven">
-			</a>
-		</div>
-	</div> -->
-
-	<!-- Quote -->
-
-	<!-- <div id="" class="quote">
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<div class="quote_container text-center">
-						<div class="quote_quote">“Wherever the bishop appears, there let the people be, even as wheresoever Christ Jesus is, there is the catholic church.”</div>
-						<div class="quote_icon"><img src="images/quote.png" alt=""></div>
-						<div class="quote_source">Ignatius of Antioch</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div> -->
-
-	<!-- Footer -->
-
-	<footer id="footer" class="footer">
-		<div class="footer_background parallax-window" data-parallax="scroll" data-image-src="images/footer.jpg" data-speed="0.8"></div>
-		<div class="container">
-			<div class="row">
-
-				<!-- Footer - Contact -->
-				<div class="col-lg-4 footer_col">
-					<div class="footer_column footer_contact_column">
-						<div class="footer_logo_container">
-							<a href="#">
-								<div class="footer_logo"><img src="images/logo.png" alt=""></div>
-								<div class="footer_logo_text">OSMBDF</div>
-							</a>
-						</div>
-						<div class="footer_contact">
-							<ul>
-								<li><div><i class="fa fa-map-marker" aria-hidden="true"></i></div><span>H#29, Sarah Aftab Tower, Ring Road, Shyamoli, Dhaka</span></li>
-								<!-- <li><div><i class="fa fa-phone" aria-hidden="true"></i></div><span>+1 234 800 8080</span></li> -->
-								<li><div><i class="fa fa-envelope" aria-hidden="true"></i></div><span><a href="mailto:info@osmbdf.org">info@osmbdf.org</span></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-
-				<!-- Footer - Links -->
-				<div class="col-lg-4 footer_col">
-					<div class="footer_column footer_links">
-						<div class="footer_title">useful links</div>
-						<ul class="footer_links_list">
-							<li><a href="about.html"><i class="fa fa-angle-double-right" aria-hidden="true"></i> About us</a></li>
-							<li><a href="contact.html"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Contact</a></li>
-							<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Donation</a></li>
-							<li><a href="blog.html"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Blog</a></li>
-							<li><a href="sermon.html"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Sermons</a></li>
-							<li><a href="events.html"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Events</a></li>
-							<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Service</a></li>
-							<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Media</a></li>
-						</ul>
-					</div>
-				</div>
-
-				<!-- Footer - Subscribe -->
-				<div class="col-lg-4 footer_col">
-					<div class="footer_column footer_subscribe">
-						<div class="footer_title">subscribe</div>
-						<div class="footer_text">Join our weekly email newsletter to receive news, events and other announcements about what is going on at our church.</div>
-						<div class="footer_form_container">
-							<form action="#" class="footer_form">
-								<div>
-									<input type="email" class="subscribe_input" placeholder="Enter your email" required="required">
-									<button class="subscribe_button trans_200" type="submit">subscribe</button>
-								</div>
-							</form>
-						</div>
-					</div>
-				</div>
-
-			</div>
-			<div class="row copyright_row">
-				<div class="col">
-					<div class="copyright_container d-flex flex-lg-row flex-column align-items-center justify-content-lg-start justify-content-center">
-						<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-							Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
-						<div class="footer_social ml-lg-auto">
-							<ul>
-								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
-</div>
-
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="styles/bootstrap4/popper.js"></script>
-<script src="styles/bootstrap4/bootstrap.min.js"></script>
-<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
-<script src="plugins/easing/easing.js"></script>
-<script src="plugins/parallax-js-master/parallax.min.js"></script>
-<script src="plugins/colorbox/jquery.colorbox-min.js"></script>
-<script src="js/custom.js"></script>
+    <div class="super_container">
+        <div id="overlay">
+            <div id="overlay-data">
+                <div id="about-details">
+                    <h2>Our history</h2>
+                    <p>It was back in 2011, OSM was introduced in Bangladesh. A working group was formed led by a group of students from Bangladesh University of Engineering Technology (BUET) to kick-start the platform. Some of them later became inactive, gradually. But a small active group of volunteers was working to make it a success in Bangladesh, and the participation was growing slowly. Later in the year of 2013, The World Bank, Bangladesh (GFDRR, WSP), revived the initiative. The World Bank GIS and Data Management Consultant, Mr. Ahasanul Hoque pioneered it. This was likely to mean a change in the pace of progress for the OSM Platform in Bangladesh. Some formal training sessions were introduced and the community did some good bit of works by mapping the old part of Dhaka city.</p>
+                    <p>However, it was from 2015 the community found the spark it was thriving for!</p>
+                    <p>In January 2015, the OSMBD community started to collaborate with HOT & MissingMaps project of mapping Kamrangircha & Hazaribagh, two of the dense populated urban slum area of Dhaka city. That was the moment from when the community started making the vibe. More and more people were introduced to the platform. Formal training sessions at educational institutes, different development organization, Government organizations along with informal mapping parties were organized. The trainings were facilitated by OSMBD community led by Mr. Ahasanul Hoque.</p>
+                    <p>In last two eventful years, the community collaborated with the organizations like Asia Foundation, Stanford Geo spatial Center, Save the Children in Bangladesh, American Red Cross, Y Care, Bangladesh Bureau of Statistics, Dhaka WASA, FAO and Asian Development Bank (ADB) in their projects relating OSM Platform.</p>
+                    <p>With the aim of bringing all the awesome works done in various sectors under the same wing, different enthusiastic and expert individuals from a variety of backgrounds joined together to build this organization.</p>
+                </div>
+            </div>
+            <div id="overlay-cross" class="cross" "><span>&times;</span></div>
+        </div>
+
+        <header class="header">
+
+            <div class="top_bar">
+                <div class="top_bar_background" style="background-image:url(images/top_bar.jpg)"></div>
+                <div class="top_bar_container">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <div class="top_bar_content d-flex flex-row align-items-center justify-content-start">
+                                    <ul class="top_bar_contact_list">
+                                        <li>
+                                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                                            <div>Email: <a href="/cdn-cgi/l/email-protection#6d04030b022d021e0f0f090b43021f0a"><span class="__cf_email__" data-cfemail="2f464149406f405c424d4b4901405d48">[email&#160;protected]</span></a></div>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-phone" aria-hidden="true"></i>
+                                            <div>Call Us: +880 1711 237222</div>
+                                        </li>
+                                    </ul>
+                                    <div class="top_bar_social ml-auto">
+                                        <ul class="social_list">
+                                            <li><a href="https://www.facebook.com/groups/osmbd"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                            <li><a href="https://twitter.com/osmbd"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-flickr" aria-hidden="true"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header_container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="header_content d-flex flex-row align-items-center justify-content-start">
+                                <div class="logo_container">
+                                    <a href="#">
+                                        <div class="logo"><img src="images/logo.png" alt=""></div>
+                                        <div class="logo_text">OpenStreetMap<br>Bangladesh<br>Foundation</div>
+                                    </a>
+                                </div>
+                                <nav class="main_nav_contaner ml-auto">
+                                    <ul class="main_nav">
+                                        <li class="active"><a href="">home</a></li>
+                                        <li><a href="#about">About</a></li>
+                                        <li><a href="#project">Projects</a></li>
+                                        <li><a href="#event">Events</a></li>
+                                        <li><a href="#blog">Blog</a></li>
+                                        <li><a href="#footer">Contact</a></li>
+                                    </ul>
+                                    <div class="search_button"><i class="fa fa-search" aria-hidden="true"></i></div>
+                                </nav>
+
+                                <div class="hamburger ml-auto">
+                                    <i class="fa fa-bars" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header_search_container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="header_search_content d-flex flex-row align-items-center justify-content-end">
+                                <form action="#" class="header_search_form">
+                                    <input type="search" class="search_input" placeholder="Search" required="required">
+                                    <button class="header_search_button d-flex flex-column align-items-center justify-content-center">
+                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="menu d-flex flex-column align-items-center justify-content-center">
+            <div class="menu_content">
+                <div class="cross_1 d-flex flex-column align-items-center justify-content-center"><img src="images/logo.png" alt=""></div>
+                <form action="#" class="menu_search_form">
+                    <input type="search" class="menu_search_input" placeholder="Search" required="required">
+                    <button class="menu_search_button d-flex flex-column align-items-center justify-content-center">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                </form>
+                <nav class="menu_nav">
+                    <ul>
+                        <li class="active"><a href="">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#project">Projects</a></li>
+                        <li><a href="#event">Events</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#footer">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="menu_close"><i class="fa fa-times" aria-hidden="true"></i></div>
+        </div>
+
+        <div class="home">
+            <div class="home_background" style="background-image:url(images/index.png)"></div>
+            <div class="home_content text-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="home_title">Connecting open data to sustainability</div>
+                            <br>
+                            <div class="home_text">Open geo-spatial data for all. Ensuring and sustaining<br>open geo-spatial data and ecosystem in Bangladesh.</div>
+                            <br>
+                            <div class="button home_link"><a target="_blank" href="https://www.facebook.com/groups/osmbd">Join us</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="about" class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div id="transformation_title" class="section_title_container text-center">
+                            <div class="section_title">The Transformation</div>
+                            <div class="section_subtitle">Our history</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row about_row">
+                    <div class="col-lg-4">
+                        <div class="about_image"><img src="images/logo-1.png" alt=""></div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about_content">
+                            <div class="about_text">
+                                <p>OpenStreetMap was introduced in Bangladesh in 2011. A working group was formed led by a group of students from Bangladesh University of Engineering Technology (BUET) to kick-start the platform. Some of them later became inactive, gradually. But a small active group of volunteers was working to make it a success in Bangladesh, and the participation was growing slowly. Later in the year of 2013, The World Bank...</p>
+                            </div>
+                            <div class="button about_button"><span>Read story</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="" class="mission">
+            <div class="mission_background parallax-window" data-parallax="scroll" data-image-src="images/mission.png" data-speed="0.8"></div>
+            <div class="mission_items d-flex flex-row flex-wrap align-items-start justify-content-start">
+                <div class="mission_item text-center">
+                    <div class="mission_icon"><i class="fa fa-rocket" aria-hidden="true"></i></div>
+                    <div class="mission_title">Our mission</div>
+                    <div class="mission_text">Building an open data ecosystem by integrating the OpenStreetMap platform, open geo-spatial data, non-geo-spatial data, open government and non-government data produced by different government and non-government agencies.</div>
+                </div>
+                <div class="mission_item text-center">
+                    <div class="mission_icon"><i class="fa fa-users" aria-hidden="true"></i></div>
+                    <div class="mission_title">Our community</div>
+                    <div class="mission_text">A continuously evolving, vibrant community, comprised of passionate people aiming towards the establishment of a sustainable open data ecosystem.</div>
+                </div>
+                <div class="mission_item text-center">
+                    <div class="mission_icon"><i class="fa fa-puzzle-piece" aria-hidden="true"></i></div>
+                    <div class="mission_title">Our approach</div>
+                    <div class="mission_text">Solving real world problems through the proper utilization of open data on the OpenStreetMap platform, while building partnership with like-minded orgnizations and communities all over the world at the same time.</div>
+                </div>
+                <div class="mission_item text-center">
+                    <div class="mission_icon"><i class="fa fa-handshake-o" aria-hidden="true"></i></div>
+                    <div class="mission_title">Our strength</div>
+                    <div class="mission_text">A diversified community, individual expertise in various relevant areas, blended with technological approach and multidirectional relationships with different organizations both home and abroad.</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="project" class="sermons">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="section_title_container text-center">
+                            <div class="section_title">The Flagships</div>
+                            <div class="section_subtitle">Completed projects</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row sermons_row">
+                    <div class="col-lg-4 sermon_col">
+                        <div class="card">
+                            <img class="card-img-top" src="images/project-6.png" alt="">
+                            <div class="card-body text-center">
+                                <div class="card-title sermon_title"><a href="#">Mapping Publicly Accessible Toilets in Dhaka</a></div>
+                                <br>
+                                <div class="card-text sermon_info_container">
+                                    <div class="sermon_info">
+                                        <div class="sermon_info_title">Location: </div>
+                                        <ul class="sermon_info_list">
+                                            <li><a href="#">Dhaka, Bangladesh</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="sermon_info">
+                                        <div class="sermon_info_title">With: </div>
+                                        <ul class="sermon_info_list">
+                                            <li><a href="#">Water Aid Bangladesh</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 sermon_col">
+                        <div class="card">
+                            <img class="card-img-top" src="images/project-3.png" alt="">
+                            <div class="card-body text-center">
+                                <div class="card-title sermon_title"><a href="#">Data4Action: Earthquake Vulnerability Assessment</a></div>
+                                <br>
+                                <div class="card-text sermon_info_container">
+                                    <div class="sermon_info">
+                                        <div class="sermon_info_title">Location: </div>
+                                        <ul class="sermon_info_list">
+                                            <li><a href="#">Mogbazar & Gandaria, Dhaka</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="sermon_info">
+                                        <div class="sermon_info_title">With: </div>
+                                        <ul class="sermon_info_list">
+                                            <li><a href="#">American Red Cross</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 sermon_col">
+                        <div class="card">
+                            <img class="card-img-top" src="images/project-1.png" alt="">
+                            <div class="card-body text-center">
+                                <div class="card-title sermon_title"><a href="#">Kolorob - Save the Children International, Bangladesh</a></div>
+                                <br>
+                                <div class="card-text sermon_info_container">
+                                    <div class="sermon_info">
+                                        <div class="sermon_info_title">Location: </div>
+                                        <ul class="sermon_info_list">
+                                            <li><a href="#">Mirpur, Dhaka</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="sermon_info">
+                                        <div class="sermon_info_title">With: </div>
+                                        <ul class="sermon_info_list">
+                                            <li><a href="#">Save the Children</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row sermons_row">
+                    <div class="col-lg-4 sermon_col">
+                        <div class="card">
+                            <img class="card-img-top" src="images/project-5.png" alt="">
+                            <div class="card-body text-center">
+                                <div class="card-title sermon_title"><a href="#">Missing Maps Bangladesh Field Mapping</a></div>
+                                <br>
+                                <div class="card-text sermon_info_container">
+                                    <div class="sermon_info">
+                                        <div class="sermon_info_title">Location: </div>
+                                        <ul class="sermon_info_list">
+                                            <li><a href="#">Kamrangirchar, Hazaribagh</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="sermon_info">
+                                        <div class="sermon_info_title">With: </div>
+                                        <ul class="sermon_info_list">
+                                            <li><a href="#">Missing Maps</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 sermon_col">
+                        <div class="card">
+                            <img class="card-img-top" src="images/project-2.png" alt="">
+                            <div class="card-body text-center">
+                                <div class="card-title sermon_title"><a href="#">Vulnerable Community Mapping in Bangladesh</a></div>
+                                <br>
+                                <div class="card-text sermon_info_container">
+                                    <div class="sermon_info">
+                                        <div class="sermon_info_title">Location: </div>
+                                        <ul class="sermon_info_list">
+                                            <li><a href="#">Birishiri & Chittagong</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="sermon_info">
+                                        <div class="sermon_info_title">With: </div>
+                                        <ul class="sermon_info_list">
+                                            <li><a href="#">Y Care</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 sermon_col">
+                        <div class="card">
+                            <img class="card-img-top" src="images/project-4.png" alt="">
+                            <div class="card-body text-center">
+                                <div class="card-title sermon_title"><a href="#">Feasibility Study for Health Service Delivery</a></div>
+                                <br>
+                                <div class="card-text sermon_info_container">
+                                    <div class="sermon_info">
+                                        <div class="sermon_info_title">Location: </div>
+                                        <ul class="sermon_info_list">
+                                            <li><a href="#">Netrokona Sadar</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="sermon_info">
+                                        <div class="sermon_info_title">With: </div>
+                                        <ul class="sermon_info_list">
+                                            <li><a href="#">Stanford University</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="body" class="donations">
+            <div class="donations_background parallax-window" data-parallax="scroll" data-image-src="" data-speed="0.8"></div>
+            <div class="container">
+                <div id="body_title" class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="section_title_container text-center">
+                                <div class="section_title">The Navigators</div>
+                                <div class="section_subtitle">Executive profiles</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-xl-4 col-lg-6 news_post_col">
+                        <div class="news_post">
+                            <div class="news_image body_image"><img src="images/body/arif-hossain.png" alt=""></div>
+                            <div class="news_post_content body_details">
+                                <div class="news_post_title">
+                                    <span>Arif Hossain</span>
+                                </div>
+                                <div class="news_post_text body_designation">
+                                    <span>Director</span>
+                                    <br>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-6 news_post_col">
+                        <div class="news_post">
+                            <div class="news_image body_image"><img src="images/body/ahasanul-hoque.png" alt=""></div>
+                            <div class="news_post_content body_details">
+                                <div class="news_post_title">
+                                    <span>Ahasanul Hoque</span>
+                                </div>
+                                <div class="news_post_text body_designation">
+                                    <span>Executive Director</span>
+                                    <br>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-6 news_post_col">
+                        <div class="news_post">
+                            <div class="news_image body_image"><img src="images/body/atikuzzaman-limon.png" alt=""></div>
+                            <div class="news_post_content body_details">
+                                <div class="news_post_title">
+                                    <span>Atikuzzaman Limon</span>
+                                </div>
+                                <div class="news_post_text body_designation">
+                                    <span>Director</span>
+                                    <br>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-xl-4 col-lg-6 news_post_col">
+                        <div class="news_post">
+                            <div class="news_image body_image"><img src="images/body/jatan-saha.png" alt=""></div>
+                            <div class="news_post_content body_details">
+                                <div class="news_post_title">
+                                    <span>Jatan Saha</span>
+                                </div>
+                                <div class="news_post_text body_designation">
+                                    <span>Director</span>
+                                    <br>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-6 news_post_col">
+                        <div class="news_post">
+                            <div class="news_image body_image"><img src="images/body/shahadat-hossain.png" alt=""></div>
+                            <div class="news_post_content body_details">
+                                <div class="news_post_title">
+                                    <span>Shahadat Hossain</span>
+                                </div>
+                                <div class="news_post_text body_designation">
+                                    <span>Director</span>
+                                    <br>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-6 news_post_col">
+                        <div class="news_post">
+                            <div class="news_image body_image"><img src="images/body/tasauf-a-baki-billah.png" alt=""></div>
+                            <div class="news_post_content body_details">
+                                <div class="news_post_title">
+                                    <span>Tasauf A Baki Billah</span>
+                                </div>
+                                <div class="news_post_text body_designation">
+                                    <span>Director</span>
+                                    <br>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="event" class="events">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="section_title_container text-center">
+                            <div class="section_title">Party!</div>
+                            <div class="section_subtitle">Past events</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="events_items d-flex flex-lg-row flex-column align-items-lg-start align-items-center justify-content-lg-between justify-content-center">
+
+                <div class="events_item">
+                    <div class="events_item_image"><img src="images/event-1.png" alt=""></div>
+                    <div class="events_item_content d-flex flex-row align-items-start justfy-content-start">
+                        <div class="event_date d-flex flex-column align-items-center justify-content-center">
+                            <div class="event_day">13</div>
+                            <div class="event_month">Aug</div>
+                        </div>
+                        <div class="event_content">
+                            <div class="event_title"><a target="_blank" href="https://www.facebook.com/groups/osmbd/permalink/1914136488645086">Celebrating 14 Years of OpenStreetMap</a></div>
+                            <ul class="event_row">
+                                <li>
+                                    <div class="event_icon"><img src="images/calendar.png" alt=""></div>
+                                    <span>02:30 PM - 05:30 PM</span>
+                                </li>
+                                <li>
+                                    <div class="event_icon"><img src="images/location.png" alt=""></div>
+                                    <span>Banani, Dhaka</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="events_item">
+                    <div class="events_item_image"><img src="images/event-2.png" alt=""></div>
+                    <div class="events_item_content d-flex flex-row align-items-start justfy-content-start">
+                        <div class="event_date d-flex flex-column align-items-center justify-content-center">
+                            <div class="event_day">3</div>
+                            <div class="event_month">Jun</div>
+                        </div>
+                        <div class="event_content">
+                            <div class="event_title"><a target="_blank" href="https://www.facebook.com/groups/osmbd/permalink/1804886062903463">OSMBDF Annual Iftar Party, 2018</a></div>
+                            <ul class="event_row">
+                                <li>
+                                    <div class="event_icon"><img src="images/calendar.png" alt=""></div>
+                                    <span>05:00 PM - 08:00 PM</span>
+                                </li>
+                                <li>
+                                    <div class="event_icon"><img src="images/location.png" alt=""></div>
+                                    <span>Boomers Cafe, Dhanmondi, Dhaka</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="events_item">
+                    <div class="events_item_image"><img src="images/event-3.png" alt=""></div>
+                    <div class="events_item_content d-flex flex-row align-items-start justfy-content-start">
+                        <div class="event_date d-flex flex-column align-items-center justify-content-center">
+                            <div class="event_day">29</div>
+                            <div class="event_month">Apr</div>
+                        </div>
+                        <div class="event_content">
+                            <div class="event_title"><a target="_blank" href="https://www.facebook.com/groups/osmbd/permalink/1398751843516889">DhakaMegaMapathon, 2017</a></div>
+                            <ul class="event_row">
+                                <li>
+                                    <div class="event_icon"><img src="images/calendar.png" alt=""></div>
+                                    <span>10:00 AM - 04:00 PM</span>
+                                </li>
+                                <li>
+                                    <div class="event_icon"><img src="images/location.png" alt=""></div>
+                                    <span>All Community Club, Gulshan 2, Dhaka</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="gallery" class="gallery d-flex flex-row flex-wrap align-items-start justify-content-start">
+            <div class="gallery_item">
+                <a class="colorbox" href="images/gallery/gallery-1-expanded.jpg">
+                    <img src="images/gallery/gallery-1.jpg" alt="Loading...">
+                </a>
+            </div>
+            <div class="gallery_item">
+                <a class="colorbox" href="images/gallery/gallery-2-expanded.jpg">
+                    <img src="images/gallery/gallery-2.jpg" alt="Loading...">
+                </a>
+            </div>
+            <div class="gallery_item">
+                <a class="colorbox" href="images/gallery/gallery-3-expanded.jpg">
+                    <img src="images/gallery/gallery-3.jpg" alt="Loading...">
+                </a>
+            </div>
+            <div class="gallery_item">
+                <a class="colorbox" href="images/gallery/gallery-4-expanded.jpg">
+                    <img src="images/gallery/gallery-4.jpg" alt="Loading...">
+                </a>
+            </div>
+            <div class="gallery_item">
+                <a class="colorbox" href="images/gallery/gallery-5-expanded.jpg">
+                    <img src="images/gallery/gallery-5.jpg" alt="Loading...">
+                </a>
+            </div>
+            <div class="gallery_item">
+                <a class="colorbox" href="images/gallery/gallery-6-expanded.jpg">
+                    <img src="images/gallery/gallery-6.jpg" alt="Loading...">
+                </a>
+            </div>
+            <div class="gallery_item">
+                <a class="colorbox" href="images/gallery/gallery-7-expanded.jpg">
+                    <img src="images/gallery/gallery-7.jpg" alt="Loading...">
+                </a>
+            </div>
+            <div class="gallery_item">
+                <a class="colorbox" href="images/gallery/gallery-8-expanded.jpg">
+                    <img src="images/gallery/gallery-8.jpg" alt="Loading...">
+                </a>
+            </div>
+            <div class="gallery_item">
+                <a class="colorbox" href="images/gallery/gallery-9-expanded.jpg">
+                    <img src="images/gallery/gallery-9.jpg" alt="Loading...">
+                </a>
+            </div>
+            <div class="gallery_item">
+                <a class="colorbox" href="images/gallery/gallery-1-expanded0.jpg">
+                    <img src="images/gallery/gallery-10.jpg" alt="Loading...">
+                </a>
+            </div>
+        </div>
+
+        <div id="blog" class="latest_news">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="section_title_container text-center">
+                            <div class="section_title">Nav-Talks</div>
+                            <div class="section_subtitle">Blog posts</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row news_row">
+
+                    <div class="col-xl-4 col-lg-6 news_post_col">
+                        <div class="news_post">
+                            <div class="news_image news_image_preview"><img src="images/news-2.png" alt=""></div>
+                            <div class="news_post_content">
+                                <div class="news_post_title">
+                                    <a target="_blank" href="https://www.openstreetmap.org/user/aHaSaN/diary/44812">Integration of OSM based participatory mapping into LoGIC Project...</a>
+                                </div>
+                                <div class="news_post_meta">
+                                    <ul>
+                                        <li><i class="fa fa-user" aria-hidden="true"></i><a target="_blank" href="https://www.openstreetmap.org/user/aHaSaN">Ahasanul Hoque</a></li>
+                                        <li><i class="fa fa-calendar-o" aria-hidden="true"></i><a target="_blank" href="#">26 Aug, 2018</a></li>
+
+                                    </ul>
+                                </div>
+                                <div class="news_post_text">
+                                    <p>LoGIC (Local Government Initiative for Climate Change) is a multi-donor collaborative initiative of GoB, UNDP, UNCDF, EU and SIDA, aims to enhance the capacity of vulnerable communities, Local Government Institutions (LGI) and...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-6 news_post_col">
+                        <div class="news_post">
+                            <div class="news_image news_image_preview"><img src="images/news-3.png" alt=""></div>
+                            <div class="news_post_content">
+                                <div class="news_post_title">
+                                    <a target="_blank" href="https://blog.openstreetmap.org/2018/08/12/happy-birthday-openstreetmap">Happy Birthday OpenStreetMap</a>
+                                </div>
+                                <div class="news_post_meta">
+                                    <ul>
+                                        <li><i class="fa fa-user" aria-hidden="true"></i><a target="_blank" href="https://blog.openstreetmap.org">OpenStreetMap Blog</a></li>
+                                        <li><i class="fa fa-calendar-o" aria-hidden="true"></i><a target="_blank" href="#">12 Aug, 2018</a></li>
+
+                                    </ul>
+                                </div>
+                                <div class="news_post_text">
+                                    <p>OpenStreetMap is 14 today! We’ve been partying in various locations around the world: Hyderbad, New Delhi, Moscow, Kigoma, Rapperswil, London, Washington DC, Denver, and Seattle. If you missed the birthday party, don’t worry. Our community is lively with events happening all the time...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-6 news_post_col">
+                        <div class="news_post">
+                            <div class="news_image news_image_preview"><img src="images/news-1.png" alt=""></div>
+                            <div class="news_post_content">
+                                <div class="news_post_title">
+                                    <a target="_blank" href="https://www.openstreetmap.org/user/Harry%20Wood/diary/44900">Fixing Multipolygons for the Renderer</a>
+                                </div>
+                                <div class="news_post_meta">
+                                    <ul>
+                                        <li><i class="fa fa-user" aria-hidden="true"></i><a target="_blank" href="https://www.openstreetmap.org/user/Harry%20Wood">Harry Wood</a></li>
+                                        <li><i class="fa fa-calendar-o" aria-hidden="true"></i><a target="_blank" href="#">4 SEP, 2018</a></li>
+
+                                    </ul>
+                                </div>
+                                <div class="news_post_text">
+                                    <p>Just thought I would re-iterate something imagico blogged about. Some important features may have disappeared from the map near you. You should check! Use the OSMInspector "Areas" view:...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <footer id="footer" class="footer">
+            <div class="footer_background parallax-window" data-parallax="scroll" data-image-src="images/footer.jpg" data-speed="0.8"></div>
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-4 footer_col">
+                        <div class="footer_column footer_contact_column">
+                            <div class="footer_logo_container">
+                                <a href="">
+                                    <div class="footer_logo"><img src="images/logo.png" alt=""></div>
+                                    <div class="footer_logo_text">OSMBDF</div>
+                                </a>
+                            </div>
+                            <div class="footer_contact">
+                                <ul>
+                                    <li><div><i class="fa fa-map-marker" aria-hidden="true"></i></div><span>H#29, SARA Aftab Tower, Ring Road, Shyamoli, Dhaka</span></li>
+                                    <li><div><i class="fa fa-phone" aria-hidden="true"></i></div><span>+880 1711 237222</span></li>
+                                    <li><div><i class="fa fa-envelope" aria-hidden="true"></i></div><span><a href="/cdn-cgi/l/email-protection#076e6961684768746a65636129687560"><span class="__cf_email__" data-cfemail="5b32353d341b342836393f3d7534293c">[email&#160;protected]</span></span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 footer_col">
+                            <div class="footer_column footer_links">
+                             <div class="footer_title">useful links</div>
+                             <ul class="footer_links_list">
+                                <li><a href="https://www.openstreetmap.org"><i class="fa fa-angle-double-right" aria-hidden="true"></i> OpenStreetMap</a></li>
+                                <li><a href="https://www.hotosm.org"><i class="fa fa-angle-double-right" aria-hidden="true"></i> HOTOSM</a></li>
+                                <li><a href="http://www.youthmappers.org"><i class="fa fa-angle-double-right" aria-hidden="true"></i> YouthMappers</a></li>
+                                <li><a href="https://wiki.openstreetmap.org/wiki/Main_Page"><i class="fa fa-angle-double-right" aria-hidden="true"></i> OpenStreetMap Wiki</a></li>
+                                <li><a href="https://wiki.osmfoundation.org/wiki/Main_Page"><i class="fa fa-angle-double-right" aria-hidden="true"></i> OSM Foundation</a></li>
+                                <li><a href="https://www.missingmaps.org"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Missing Maps</a></li>
+                                <li><a href="http://boiledbhoot.org"><i class="fa fa-angle-double-right" aria-hidden="true"></i> BOIL</a></li>
+                                <li><a href="https://learnosm.org/en"><i class="fa fa-angle-double-right" aria-hidden="true"></i> LearnOSM</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 footer_col">
+                        <div class="footer_column footer_subscribe">
+                            <div class="footer_title">subscribe</div>
+                            <div class="footer_text">Join our weekly email newsletter to receive news, events and other announcements about what is going on.</div>
+                            <div class="footer_form_container">
+                                <form action="#" class="footer_form">
+                                    <div>
+                                        <input type="email" class="subscribe_input" placeholder="Enter your email" required="required">
+                                        <button class="subscribe_button trans_200" type="submit">subscribe</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row copyright_row">
+                    <div class="col">
+                        <div class="copyright_container d-flex flex-lg-row flex-column align-items-center justify-content-lg-start justify-content-center">
+                            <div class="copyright">
+                                Copyright &copy;<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="d7a82cf28664edb4dcb28d4e-text/javascript">document.write(new Date().getFullYear());</script> All rights reserved | For OpenStreetMap Bangladesh Foundation (OSMBDF) <i class="fa fa-heart-o" aria-hidden="true"></i> from <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                            </div>
+                            <div class="footer_social ml-lg-auto">
+                                <ul>
+                                    <li><a href="https://www.facebook.com/groups/osmbd"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://twitter.com/osmbd"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-flickr" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/jquery-3.2.1.min.js" type="d7a82cf28664edb4dcb28d4e-text/javascript"></script>
+    <script src="styles/bootstrap4/popper.js" type="d7a82cf28664edb4dcb28d4e-text/javascript"></script>
+    <script src="styles/bootstrap4/bootstrap.min.js" type="d7a82cf28664edb4dcb28d4e-text/javascript"></script>
+    <script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js" type="d7a82cf28664edb4dcb28d4e-text/javascript"></script>
+    <script src="plugins/easing/easing.js" type="d7a82cf28664edb4dcb28d4e-text/javascript"></script>
+    <script src="plugins/parallax-js-master/parallax.min.js" type="d7a82cf28664edb4dcb28d4e-text/javascript"></script>
+    <script src="plugins/colorbox/jquery.colorbox-min.js" type="d7a82cf28664edb4dcb28d4e-text/javascript"></script>
+    <script src="js/custom.js" type="d7a82cf28664edb4dcb28d4e-text/javascript"></script>
+    <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/a2bd7673/cloudflare-static/rocket-loader.min.js" data-cf-settings="d7a82cf28664edb4dcb28d4e-|49" defer=""></script>
 </body>
 </html>

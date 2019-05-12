@@ -231,7 +231,7 @@ $(document).ready(function()
 		aboutImageFlag = true;
 		document.getElementsByClassName("about_image")[0].querySelector("img").style.filter = "blur(20px)";
 		setTimeout(function() {
-			document.getElementsByClassName("about_image")[0].querySelector("img").src = "images/logo-2.png";
+			document.getElementsByClassName("about_image")[0].querySelector("img").src = "images/about-2.png";
 			document.getElementsByClassName("about_image")[0].querySelector("img").style.filter = "";
 		}, 800);
 	}

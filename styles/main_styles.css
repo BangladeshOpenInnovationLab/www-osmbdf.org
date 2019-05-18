@@ -40,6 +40,9 @@
 2. Body and some general stuff
 *********************************/
 
+:root {
+	--header-height: 120px;
+}
 *
 {
 	margin: 0;
@@ -452,7 +455,7 @@ section
 }
 .header_content
 {
-	height: 120px;
+	height: var(--header-height);
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -1803,4 +1806,18 @@ section
 .footer_social ul li a i:hover
 {
 	color: var(--themeColor2);
+}
+
+
+/*********************************
+   Overlay screen (pop-up)
+*********************************/
+
+div#img404 {
+	margin-top: var(--header-height);
+	height: calc(100vh - var(--header-height));
+	background-image: url("../images/404.jpg");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
 }

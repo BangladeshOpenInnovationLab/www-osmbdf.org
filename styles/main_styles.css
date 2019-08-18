@@ -1856,6 +1856,7 @@ div#img404 {
 	border: 1px solid #fff;
     color: #fff;
 	transition: all 0.3s ease;
+	display: inline-block;
 }
 
 #announcement a:hover {

@@ -1833,58 +1833,77 @@ div#img404 {
 
 
 #announcement {
-    background-color: var(--themeColor2);
+    background-color: #fdfdfd;
     bottom: 40px;
-    box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
     position: fixed;
+    height: 140px;
     width: 100%;
     z-index: 2147483647;
     transition: left 1.5s ease 0.5s;
 }
 
-#announcement div.part {
-    text-align: center;
+#announcement div.row {
+	justify-content: center;
 }
 
-#announcement div.text {
-    align-items: center;
-    display: flex;
-    justify-content: center;
+#announcement div,
+#announcement img {
+	height: 100%;
 }
 
-#announcement a {
-	padding: 0.5rem 1rem;
-	border: 1px solid #fff;
-    color: #fff;
-	transition: all 0.3s ease;
-	display: inline-block;
+
+
+
+
+
+
+
+
+
+#popup {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 9999999999;
 }
 
-#announcement a:hover {
-	color: var(--themeColor2);
-	background-color: #fff;
-	font-weight: 700;
-}
-
-#announcement .text a {
-	font-size: 1.1rem;
-	border: none;
-}
-
-#announcement .text a:hover {
-	color: #fff;
-	background-color: inherit;
-	font-weight: initial;
-}
-
-#announcement div.text a:hover {
-    font-size: 1.4rem;
-}
-
-#announcement .button-type-1 {
+#popup div.content {
+    border-radius: 10px;
+    background-color: #fff;
     display: inline-block;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    height: calc(100% - calc(40px * 2));
+    box-shadow: 0px 0px 30px 0 #000;
 }
 
-#announcement .button-cont {
-    margin: 20px;
+#popup img {
+	max-height: 100%;
+    border-radius: 10px;
+}
+
+#popup span.icon.cross:hover {
+    cursor: pointer;
+}
+
+#popup span.icon.cross::after {
+    position: absolute;
+    border-radius: 50%;
+    right: 20px;
+    top: 15px;
+    content: '\00d7';
+    font-size: 50px;
+    line-height: 45px;
+    text-align: center;
+    color: #000;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.2);
 }

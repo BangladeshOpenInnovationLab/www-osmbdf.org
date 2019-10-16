@@ -263,3 +263,12 @@ $(document).ready(function()
 
 
 });
+
+
+
+
+
+function closePopup() {
+    let popUp = document.getElementById('popup');
+    popUp.style.display = "none";
+}

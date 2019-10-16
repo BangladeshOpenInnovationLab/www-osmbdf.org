@@ -914,7 +914,8 @@ section
 	margin-top: 19px;
 }
 #event {
-	background: #f7f7f7;
+	/*background: #f7f7f7;*/
+	background: #fff;
 }
 
 /*********************************
@@ -1833,7 +1834,7 @@ div#img404 {
 
 #announcement {
     background-color: var(--themeColor2);
-    bottom: 30px;
+    bottom: 40px;
     box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
     position: fixed;
     width: 100%;
@@ -1852,10 +1853,11 @@ div#img404 {
 }
 
 #announcement a {
-	padding: 1rem;
+	padding: 0.5rem 1rem;
 	border: 1px solid #fff;
     color: #fff;
 	transition: all 0.3s ease;
+	display: inline-block;
 }
 
 #announcement a:hover {
@@ -1884,5 +1886,5 @@ div#img404 {
 }
 
 #announcement .button-cont {
-    margin: 30px;
+    margin: 20px;
 }

@@ -914,7 +914,8 @@ section
 	margin-top: 19px;
 }
 #event {
-	background: #f7f7f7;
+	/*background: #f7f7f7;*/
+	background: #fff;
 }
 
 /*********************************

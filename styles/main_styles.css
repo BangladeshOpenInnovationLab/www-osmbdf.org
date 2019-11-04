@@ -1832,35 +1832,6 @@ div#img404 {
 
 
 
-#announcement {
-    background-color: #fdfdfd;
-    bottom: 40px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.5);
-    position: fixed;
-    height: 140px;
-    width: 100%;
-    z-index: 2147483647;
-    transition: left 1.5s ease 0.5s;
-}
-
-#announcement div.row {
-	justify-content: center;
-}
-
-#announcement div,
-#announcement img {
-	height: 100%;
-}
-
-
-
-
-
-
-
-
-
-
 #popup {
     position: fixed;
     background-color: rgba(0, 0, 0, 0.5);
